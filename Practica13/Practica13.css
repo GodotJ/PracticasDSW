@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    height: 100vh;
+  }
+  header, #contenedor, footer{
+    width: 99%;
+  }
+  header{
+    background: gainsboro;
+    border: solid 1px;
+    height: 20%;
+  
+  }
+  
+  nav{
+    height: 40%;
+    width: 95%;
+    background: gray;
+    border: solid 1px;
+    margin-top: 50px;
+    margin-left: 15px;
+    /*display: inline-grid;*/
+  }
+  
+  footer{
+    background: gray;
+    height: 10%;
+  }
+  
+  #contenedor {
+    display: flex;
+    height: 67.5%;
+    margin: 10px;
+    justify-content: space-around;
+  }
+  aside{
+    background: gainsboro;
+    height: 85%;
+    width: 40%;
+  }
+  
+  section{
+    background: gainsboro;
+    height: 85%;
+    width: 55%;
+    margin-left: 10px;
+  }
+  
+  #primero
+  {
+    background: gray;
+    width: 95%;
+    height: 20%;
+    margin-top: 110px;
+    margin-left: 15px;
+  }
+  
+  #segundo
+  {
+    background: gray;
+    width: 95%;
+    height: 20%;
+    margin-top: 110px;
+    margin-left: 15px;
+  }
