@@ -1,0 +1,43 @@
+* {
+    background-color: khaki;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header, nav, footer, #contenedor {
+    width: 100%;
+  }
+  header, footer{
+    height: 10%;
+    background: tomato;
+    border: 1px solid;
+  }
+  nav{
+    height: 5%;
+    width: 100;
+    background: green;
+    border: 1px solid;
+    margin-top: 10px;
+  }
+  article, section{
+    height: 95%;
+    border: 1px solid;
+  }
+  article{
+    width: 20%;
+    background: skyblue;
+  
+  }
+  section{
+    width: 50%;
+    background: lightblue;
+  }
+  #contenedor {
+    display: flex;
+    justify-content: space-around;
+    height: 65%;
+    margin-top: 10px;
+  }
+  body {
+    height: 100vh;
+  }
