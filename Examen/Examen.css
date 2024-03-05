@@ -1,0 +1,113 @@
+/* Aguayo Pedroza Junior Ernesto*/
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  header{
+    background: gainsboro;
+    border: solid 1px;
+    height: 50px;
+    width: 70%;
+    margin-left: 15px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  nav{
+    height: 50px;
+    width: 70%;
+    background: gray;
+    border: solid 1px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  footer{
+    background: gray;
+    height: 50px;
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: solid 1px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  #contenedor {
+    display: flex;
+    height: 350px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 15px;
+    justify-content: space-between;
+    
+  }
+  aside{
+    background: gainsboro;
+    height: 350px;
+    width: 30%;
+    border: solid 1px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  section{
+    background: gainsboro;
+    height: 350px;
+    width: 65%;
+    border: solid 1px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  #primero
+  {
+    background: lightcoral;
+    width: 90%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 6px;
+    
+  }
+  
+  #segundo
+  {
+    background: lightcoral;
+    width: 90%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 6px;
+  }
+
+  #tercero{
+
+    background: lightcoral;
+    width: 90%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 6px;
+  }
+
+  #cuarto{
+    background: lightcoral;
+    width: 80%;
+    height: 30%;
+    margin-top: 50px;
+    margin-left: 16px;
+    border-radius: 6px;
+  }
+
+  #quinto{
+    background: lightcoral;
+    width: 80%;
+    height: 30%;
+    margin-top: 45px;
+    margin-left: 16px;
+    border-radius: 6px;
+  }
