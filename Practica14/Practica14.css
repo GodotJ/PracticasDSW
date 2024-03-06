@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#pri{
+    margin-left: 30vh;
+    margin-top: 10vw;
+    border: solid;
+    background-color: aqua;
+    height: 40vh;
+    width: 40vw;
+    font-size: 2em;
+}
+
+#seg{
+    border: solid;
+    background-color:blueviolet;
+    margin-top: 10vmax;
+    margin-left: 10vmin;
+    height: 40vmax;
+    width: 40vmin;
+    font-size: 4ex;
+}
+
+#rem{
+    font-size: 3rem;
+}
