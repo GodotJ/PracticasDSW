@@ -1,0 +1,99 @@
+h2::first-letter{font-size: 50px; color: #008000}
+
+p:nth-last-of-type(3n+1){
+  text-indent: 2em;
+}
+
+a::before{content: "→";}
+a{
+  text-decoration: none;
+}
+
+abbr::after{
+  content: " Abreviatura";
+  color: red;
+}
+
+.circulos:nth-of-type(1){
+  list-style-type: circle;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  width: 50vw;
+  border-spacing: 4px;
+}
+
+th,td{
+  border: solid 1px;
+  height: 40px;
+
+}
+
+th{
+  background-color: #CCFFFF;
+}
+
+tr:nth-child(2n){
+  background-color: #FF9966;
+}
+
+tr:nth-last-of-type(4n+1){
+  background-color: #FF3300;
+}
+
+td{
+  text-align: right;
+}
+
+tr:hover{
+  background-color: #FF3300;
+}
+
+.Cafe{
+  width:250px;
+  height: 250px;
+  background: #DC143C;
+  float: left;
+}
+
+.Cafe:hover{
+  background: #A52A2A;
+  width: 350px;
+  height: 350px;
+}
+
+.redondo{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #5cb85c;
+  transition : 3s;
+  float: left;
+}
+
+.redondo:active{
+
+  background: #FF1493;
+  border-style: dashed solid;
+}
+
+.amarillo{
+  width:250px;
+  height: 250px;
+  border-style: outset;
+  background: #7FFF00;
+  float: left;
+}
+
+.amarillo:hover{
+  background: #00FFFF;
+  transform: rotate(90deg);
+}
+
+.principal{
+  margin: auto;
+  padding: 30vh;
+}
